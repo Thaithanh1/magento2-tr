@@ -1,0 +1,14 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Land_HelloWorld::menu_title" title="HelloWorld module"
+            module="Land_HelloWorld" sortOrder="20" resource="Land_HelloWorld::title_menu" />
+        <add id="Land_HelloWorld::manage_posts" title="Land HelloWorld"
+            module="Land_HelloWorld" sortOrder="1" parent="Land_HelloWorld::menu_title"
+            action="helloworld/posts/index" resource="Land_HelloWorld::manage_posts"/>
+        <add id="Land_HelloWorld::module_config" title="Module Configuration"
+            module="Land_HelloWorld" sortOrder="2" parent="Land_HelloWorld::menu_title"
+            action="adminhtml/system_config/edit/section/helloworld"
+            resource="Land_HelloWorld::configuration"/>
+    </menu>
+</config>

@@ -5,7 +5,7 @@
     </head>
     <body>
         <referenceContainer name="content">
-            <block class="Land\HelloWorld\Block\Index" name="helloworld_index" template="Land_HelloWorld::helloworld.phtml" />
+            <block class="Land\HelloWorld\Block\Index" name="helloworld_index"  template="Land_HelloWorld::helloworld.phtml" />
         </referenceContainer>
     </body>
 </page>
