@@ -18,13 +18,13 @@ class Index extends \Magento\Framework\View\Element\Template
 
     public function getTitle()
     {
-        $config = $this->helper->getConfig('helo/enable2');
+        $config = $this->helper->getConfig('setting/enable');
 
         if($config){
-            return __('HelloWorld');     
+            return $this->helper->getConfig('setting/text2');     
         }
        else{
-           return "1";
+           return "";
        }
     }
 }

@@ -10,5 +10,11 @@
                <customer_edit_page>1</customer_edit_page>
            </button_visibility>
        </aureatelabs>
+       <helloworld>
+           <setting>
+               <text>hello_text</text>
+               <text2>hello_text2</text2>
+           </setting>
+       </helloworld>
    </default>
 </config>

@@ -16,17 +16,24 @@
                     <label>Enable</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>    
                 </field>
-                <field id="text" translate="label" type="text" sortOrder="2" showInDefault="1"
+                <!-- <field id="text" translate="label" type="text" sortOrder="2" showInDefault="1"
                     showInWebsite="0" showInStore="0">
                     <depends>
                         <field id="enable">1</field>
                     </depends>
                     <label>Text</label>
-                    <comment>hello_text</comment>
+                    <comment id="comment">hello_text</comment>
+                </field> -->
+                <field id="text2" translate="label" type="text" sortOrder="2" showInDefault="1"
+                    showInWebsite="0" showInStore="0">
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                    <label>Text</label>
                 </field>
             </group>
 
-            <group id="helo" translate="label" type="text" sortOrder="1" showInDefault="1"
+            <!-- <group id="helo" translate="label" type="text" sortOrder="1" showInDefault="1"
                     showInWebsite="0" showInStore="0">
                 <label>setting</label>
                 <field id="enable2" translate="label" type="select" sortOrder="1"
@@ -34,7 +41,15 @@
                     <label>Enable</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>    
                 </field>
-            </group>
+                <field id="text" translate="label" type="text" sortOrder="2" showInDefault="1"
+                    showInWebsite="0" showInStore="0">
+                    <depends>
+                        <field id="enable2">1</field>
+                    </depends>
+                    <label>Text</label>
+                    <comment id="comment">hello_text</comment>
+                </field>
+            </group> -->
         </section>
     </system>
 </config>
